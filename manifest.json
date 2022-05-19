@@ -13,7 +13,7 @@
         {
             "matches": ["*://mail.google.com/*"],
             "js": [
-                "links.js"
+                "gmail.js"
             ]
         }
     ]
