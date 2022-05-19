@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "version": "1.0",
+    "name": "Google Quick Links",
+    "icons": {
+        "64": "icon-64.png",
+        "128": "icon-128.png"
+    },
+    "host_permissions": [
+        "https://mail.google.com/"
+    ],
+    "content_scripts": [
+        {
+            "matches": ["*://mail.google.com/*"],
+            "js": [
+                "links.js"
+            ]
+        }
+    ]
+}
