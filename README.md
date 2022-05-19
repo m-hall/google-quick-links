@@ -21,3 +21,4 @@ I have no uploaded to Chrome Web Store at this time, so manual install is the on
 
 ## Plans
 - Allow customizing the list of apps
+- More relevant extension logo 😅
